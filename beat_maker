@@ -236,7 +236,7 @@ while run:
 
     """Beats changing"""
     beats_rect = pygame.draw.rect(screen, gold, [595, height - 110, 225, 100], 5, 5)
-    beats_text = medium_font.render('Beats Per Minute', True, white)
+    beats_text = medium_font.render('Beats', True, white)
     screen.blit(beats_text, (608, height - 85))
     beats_text2 = label_font.render(f'{beats}', True, white)
     screen.blit(beats_text2, (680, height - 50))
